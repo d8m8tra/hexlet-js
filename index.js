@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import getLast from './src/indexedDB.js'
 
-console.log('Hello, Hexlet!');
-console.log(_.last(['one', 'two']));
+console.log('Hello, Hexlet!')
+getLast()

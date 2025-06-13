@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": ""
   },
@@ -21,6 +21,15 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@eslint/create-config": "^1.9.0",
+    "@eslint/js": "^9.28.0",
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "prettier-eslint": "^16.4.2"
   }
 }
